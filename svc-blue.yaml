@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: springboot-blue
+  namespace: huyldq1
+spec:
+  type: ExternalName
+  externalName: springboot.huyldq1-blue.svc.cluster.local
